@@ -12,17 +12,17 @@ toggleButton.forEach(function(toggleButton) {
 
             mm.add({
                 isMobile : "(max-width: 426px)",
-                isTablet : "(max-width: 768px)",
-                isDesktop : "(min-width: 1024px)",
+                isTablet : "(min-width: 427px) and (max-width: 768px)",
+                isDesktop : "(min-width: 769px)",
             }, (context) =>{
 
-                let {isMobile, isTablet} = context.conditions;
+                let {isMobile, isTablet, isDesktop} = context.conditions;
 
                 tl.to(offCanvasSection, {
                     display: 'flex',
                     flexDirection: 'column',
                     opacity: 1,
-                    '--beforeScale': isMobile ? 147 : (isTablet ? 192 : 320),
+                    '--beforeScale': isMobile ? 150 : (isTablet ? 195 : 335),
                 });
     
                 tl.fromTo('.off-canvas h3', {
