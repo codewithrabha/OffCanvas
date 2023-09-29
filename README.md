@@ -13,7 +13,7 @@ A simple and lightweight fully responsive offcanvas menu created using GSAP (Gre
 
 ## Download the template : https://bit.ly/3ZyiJGp
 
-1. Download the zip and Upload all files from 'assest' folder to wp media.
+1. Download the Template and Upload all files from 'assest' folder to wp media.
 2. Import 'elementor-header.json' and 'elementor-offcanvas-gsap.json'
 3. Get the cdn link from 'cdn.txt', use it in Elementor custom code.
 4. Grab the css code from 'css.txt', use it in Elementor custom code.
