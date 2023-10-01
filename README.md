@@ -7,7 +7,7 @@ A simple and lightweight fully responsive offcanvas menu created using GSAP (Gre
 ------------------------------------------------------------------
 
 
-# Off-Canvas Menu [Gsap+Elementor]
+# Off-Canvas Menu [Elementor+GSAP]
 
 A simple and lightweight fully responsive offcanvas menu created using GSAP (GreenSock Animation Platform) and JavaScript for Elementor Theme Builder. This offcanvas menu smoothly animates in and out to provide a clean and user-friendly mobile navigation experience.
 
